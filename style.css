@@ -90,6 +90,7 @@ li span {
   width:500px;
   margin: 0 auto;
   aspect-ratio:4/3;
+  text-align: center;
 }
 
 .profile-pic:hover {
