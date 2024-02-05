@@ -88,6 +88,7 @@ li span {
   background-image: url('images/Thierry.jpeg');
   background-size: cover;
   width:500px;
+  margin: 0 auto;
   aspect-ratio:4/3;
 }
 
