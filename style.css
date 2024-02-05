@@ -1,0 +1,96 @@
+body {
+  color:#FFFFFF;
+  image-rendering: pixelated;
+  text-rendering: geometricPrecision;
+  font-family: Comic Sans MS,Courier;
+  background-image: url("https://rayps.com/bg.9115fe59.gif");
+  background-size: 285px;
+  font-weight:400px;
+  font-size:16px;
+  cursor: url("https://rayps.com/cursor.9933be68.cur"),auto;
+  vertical-align: baseline;
+
+}
+
+@media (max-width: 960px) {
+  /* Pour un écran < 960px, cette classe CSS s'applique */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* Pour un écran < 720px, cette classe CSS s'applique */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* Pour un écran < 540px, cette classe CSS s'applique */
+  .container {
+    width: 300px;
+  }
+}
+
+h1, h2 {
+  font-size: 18px;
+    color: #0ff;
+    line-height: 30px;
+}
+.links {
+  padding-top: 40px;
+    font-size: 14px;
+}
+.button {
+  margin: 0 auto;
+  animation: rainbow 1s infinite;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding:8px 12px;
+  border-radius:2000px;
+  letter-spacing: 0.8px;
+  transition: 0.5s;
+  display: inline-block;
+}
+
+a{
+  color: red;
+  text-decoration: none;
+  transition: 0.3s ease;
+  width: 100%;
+}
+a:hover{
+  color:blue;
+}
+
+.gif {
+  width:80px;
+  height:80px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.list {
+  list-style-type: none;
+  padding:0;
+}
+li a {
+  position: relative;
+}
+li span {
+  position: absolute;
+  top: -40px;
+  width: 600px;
+}
+
+.profile-pic {
+  background-image: url('images/Thierry.jpeg');
+  background-size: cover;
+  width:500px;
+  aspect-ratio:4/3;
+}
+
+.profile-pic:hover {
+  background-image: url('https://i.makeagif.com/media/1-25-2022/0QlF4j.gif');
+}
